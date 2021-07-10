@@ -16,5 +16,17 @@ export const environment = {
     'autoRefresh': false, 
     'listenToToken': 'id_token', 
     'encrypted':true
+  },
+  logging: {
+    "logLevels": [
+      {
+        "loggerName": "root",
+        "logLevel": "DEBUG"
+      },
+      {
+        "loggerName": "MyApp.MyNamespace.MyLogger",
+        "logLevel": "INFO"
+      }
+    ]
   }
 };
