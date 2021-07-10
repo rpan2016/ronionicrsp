@@ -29,7 +29,7 @@
     "@ionic-native/in-app-browser": "^5.34.0",
     "@ionic/angular": "^5.5.2",
     "@ionic/pwa-elements": "^3.0.2",
-    "@ruf/idp-auth": "^1.1.0-rc.5",
+    "@ruf/idp-auth": "file:./idp-auth-1.1.0-rc.5.tgz",
     "angular-oauth2-oidc": "^10.0.3",
     "ionic-logging-service": "^13.0.0",
     "rxjs": "~6.6.0",
