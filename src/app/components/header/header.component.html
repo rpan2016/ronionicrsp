@@ -1,0 +1,64 @@
+<ion-header class="mobile-header">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="myMenu"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ title }}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="person-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="log-out-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-row class="header ion-align-items-center">
+  <ion-col size="2">
+    <img src="data:image/png;base64,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" width="100px">
+  </ion-col>
+  <ion-col size="8" class="ion-text-left">
+    <ion-button fill="clear" color="dark" routerLink="/" routerDirection="root" routerLinkActive="active-item"
+      [routerLinkActiveOptions]="{exact: true}">
+      Home
+    </ion-button>
+
+    <ion-button #productbtn (mouseenter)="dropdown=true" (mouseleave)="hideDropdown($event)" fill="clear" color="dark"
+      class="dropdown-btn" routerLink="/products" routerDirection="root" routerLinkActive="active-item">
+      Products
+      <ion-icon slot="end" [name]="dropdown ? 'chevron-down' : 'chevron-up'"></ion-icon>
+    </ion-button>
+
+    <div *ngIf="dropdown" class="dropdown" (mouseleave)="dropdown = false" #dropdownbox>
+      <ion-item button (click)="dropdown = false" routerLink="/products" routerDirection="root"
+      [queryParams]="{ category: 'popular'}" lines="none">
+        Popular
+      </ion-item>
+      <ion-item button (click)="dropdown = false" routerLink="/products" [queryParams]="{ category: 'cloth'}"
+        lines="none" routerDirection="root">
+        Cloth
+      </ion-item>
+      <ion-item button (click)="dropdown = false" routerLink="/products" [queryParams]="{ category: 'gadgets'}"
+        lines="none" routerDirection="root">
+        Gadgets
+      </ion-item>
+    </div>
+
+
+    <ion-button fill="clear" color="dark" routerLink="/about" routerDirection="root" routerLinkActive="active-item">
+      About
+    </ion-button>
+  </ion-col>
+  <ion-col size="2" class="ion-text-right">
+    <ion-button fill="clear" color="dark">
+      <ion-icon slot="icon-only" name="person-outline"></ion-icon>
+    </ion-button>
+    <ion-button fill="clear" color="dark" (click)="logout()">
+      <ion-icon slot="icon-only" name="log-out-outline"></ion-icon>
+    </ion-button>
+  </ion-col> 
+</ion-row>

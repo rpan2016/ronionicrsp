@@ -1,0 +1,17 @@
+{
+    "authConfig": {
+      "issuer": "https://login8-uat.fiscloudservices.com/idp/us_merchant",
+      "clientId": "RonTestApp",
+      "dummyClientSecret": "996ee7bf0b6dc04882080f308ac28929859e",
+      "redirectUri": "http://localhost:4200/",
+      "logoutUrl": "http://localhost:4200/",
+      "responseType": "code",
+      "requireHttps": false,
+      "waitForTokenInMsec": 1000,
+      "interceptUrls": ["origin", "http://localhost:3000"],
+      "unauthorizedRoute": ["unauthorized"],
+      "autoRefresh": true,
+      "listenToToken": "id_token",
+      "encrypted": true
+    }
+  }

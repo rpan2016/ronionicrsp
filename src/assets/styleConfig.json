@@ -1,0 +1,12 @@
+{
+    "cssVars":{
+        "--ion-font-light":"montserrat-light",
+        "--ion-font-regular":"montserrat-regular",
+        "--ion-font-medium":"montserrat-medium",
+        "--ion-font-semibold":"montserrat-semibold",
+        "--ion-font-bold":"montserrat-bold",
+
+        "--ion-color-primary":"#69bb7b",
+        "--ion-color-primary-rgb":"105.187.123"
+    }
+}
